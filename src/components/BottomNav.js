@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  MessageSquareFlame,
+  Flame,
   MapPin,
   HelpCircle,
   Quote,
@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 const TABS = [
-  { id: "cubil", label: "El Cubil", icon: MessageSquareFlame },
+  { id: "cubil", label: "El Cubil", icon: Flame },
   { id: "mapa", label: "Viajes *", icon: MapPin },
   { id: "quiz", label: "Quiz 10", icon: HelpCircle },
   { id: "frases", label: "Frases", icon: Quote },
